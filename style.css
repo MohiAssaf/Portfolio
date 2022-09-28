@@ -263,17 +263,17 @@ body > header > section.navigation > nav > ul > li:nth-child(5){
 
 
 .skills .row .progress-bar .progress:nth-child(2) .bar span {
-    width: 90%;
+    width: 80%;
 }
 
 .skills .row .progress-bar .progress:nth-child(3) .bar span {
-    width: 80%;
+    width: 70%;
 }
 .skills .row .progress-bar .progress:nth-child(4) .bar span {
     width: 65%;
 }
 .skills .row .progress-bar .progress:nth-child(5) .bar span {
-    width: 60%;
+    width: 65%;
 }
 
 .skills .row .personal-info{
@@ -392,6 +392,64 @@ body > header > section.navigation > nav > ul > li:nth-child(5){
 }
 
 
+/* why me section*/
+
+.whyMe {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.whyMe .wtitle{
+    font-size: 4.5rem;
+    text-align: center;
+    color: #4666FF;
+    transition: 0.8s;
+    text-transform: capitalize;
+}
+
+.whyMe .wtitle:hover{
+    -webkit-text-stroke: 1px #4666FF;
+    color: transparent;
+}
+
+.whyMe .why-conatiner{
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 1100px;
+    height: 400px;
+    padding-top: 300;
+    margin: 50px auto;
+    box-shadow: 0 .5rem 1rem #FFFF33;
+
+}
+
+.whyMe h3.otitle {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #4666FF;
+}
+
+.whyMe  .why-box {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+.whyMe  .why-box p{
+    font-size: 30px;
+    text-align: right;
+
+}
+
+.whyMe  .why-box i{
+    color: #999;
+
+}
+
+
 /* certificate section*/
 
 .certificates .Stitle {
@@ -400,6 +458,7 @@ body > header > section.navigation > nav > ul > li:nth-child(5){
     text-align: center;
     transition: 0.8s;
     text-transform: capitalize;
+    padding-top: 50px;
 }
 
 .certificates .Stitle:hover {
