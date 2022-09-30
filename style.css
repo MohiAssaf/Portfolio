@@ -391,6 +391,9 @@ body > header > section.navigation > nav > ul > li:nth-child(5){
     font-size: 1.5rem;
 }
 
+.education .row .column .box p span{
+    color: #87CEFA;
+}
 
 /* why me section*/
 
