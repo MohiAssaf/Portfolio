@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+
+    ul{
+        display: none;
+    }
+
+    .content h4 {
+        margin-top: 10rem;
+        
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .content h1{
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content a {
+        width: 35%;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .why-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
