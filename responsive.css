@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 
     ul{
         display: none;
@@ -40,5 +40,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .whyMe .why-conatiner{
+        width: 100%;
+        height: 100%;
+    }
+
+    .whyMe h3.otitle{
+        font-size: 1.5rem;
+    }
+
+    .diploma{
+        flex-direction: column;
+        height: 100%;
+        padding: 2rem 0;
+    }
+
+    .certificates .Stitle{
+        font-size: 3.4rem;
     }
 }

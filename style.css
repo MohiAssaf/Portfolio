@@ -56,9 +56,8 @@ a:hover{
 }
 
 nav i{
-    border: 1px solid black; /* circles around the social media icons*/
-    border-radius: 50%;
     padding: 5px;
+    font-size: 1.5rem;
 }
 
 body > header > section.navigation > nav > ul > li:nth-child(5){
