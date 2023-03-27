@@ -346,7 +346,13 @@ body > header > section.navigation > nav > ul > li:nth-child(5){
     border: 0.3rem solid black;
     box-shadow: 0 .5rem 1rem #4666FF;
     border-radius: 1.5rem;
+    max-height: 1000px;
+    overflow-y: scroll;
 
+}
+
+.education .row .column::-webkit-scrollbar {
+    width: 10px;
 }
 
 .education .row .column .title {
@@ -357,7 +363,7 @@ body > header > section.navigation > nav > ul > li:nth-child(5){
 }
 
 .education .row .column #school {
-    padding-bottom: 8rem;
+    padding-bottom: 4.2rem;
 }
 .education .row .column .box {
     padding-left: 2.5rem;
@@ -377,6 +383,7 @@ body > header > section.navigation > nav > ul > li:nth-child(5){
     width: 1rem;
     border-radius: 50%;
     background: #C32727;
+    
 }
 
 .education .row .column .box .year {
