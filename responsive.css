@@ -1,4 +1,12 @@
 @media screen and (max-width: 1000px) {
+    
+    video {
+        display: none;
+    }
+    body{
+        background-image: url('./images/back-2.png');
+        background-size: cover;
+    }
 
     ul{
         display: none;
